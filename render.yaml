@@ -1,6 +1,6 @@
 services:
   - type: worker
-    name: cursedxme-monitor
+    name: Aggieanderson-monitor
     runtime: python
     plan: free
     buildCommand: pip install -r requirements.txt
@@ -9,4 +9,4 @@ services:
       - key: DISCORD_BOT_TOKEN
         sync: false
       - key: BOT_NAME
-        value: Cursedxme Monitor
+        value: Aggie anderson monitor
