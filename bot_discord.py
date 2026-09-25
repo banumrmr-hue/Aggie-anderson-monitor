@@ -75,7 +75,7 @@ logging.basicConfig(
 log = logging.getLogger("ig-monitor-discord")
 
 # Customer branding - change only this line when needed.
-BOT_NAME = "Cursedxme Monitor"
+BOT_NAME = "Aggie anderson monitor"
 
 # ======================================================================
 # DATABASE - aiosqlite persistence so monitors survive a restart
