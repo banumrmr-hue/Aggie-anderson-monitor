@@ -1,0 +1,12 @@
+services:
+  - type: worker
+    name: cursedxme-monitor
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot_discord.py
+    envVars:
+      - key: DISCORD_BOT_TOKEN
+        sync: false
+      - key: BOT_NAME
+        value: Cursedxme Monitor
